@@ -1,15 +1,14 @@
 # Habitica Stayin' Alive Script
 
-Are you tired of running out of health? Would you like to have bought a health potion earlier? Do you wish you had remembered to use that healer skill? Would you like to help your party stay alive even when you're not online? 
+Are you tired of running out of health?   
+Would you like to have bought a health potion earlier?   
+Do you wish you had remembered to use that healer skill?   
+Would you like to help your party stay alive even when you're not online?   
 
-**Don't despair!** Using the [Stayin' Alive Script]() you can forget about these worries and focus on your tasks!
+**Don't despair!** Using the **[Stayin' Alive Script](https://github.com/RaitheOfDureya/Habitica-Stayin-Alive-Script/blob/main/StayingAliveScript.txt)** you can forget about these worries and focus on your tasks!
 
-This script will try to keep you alive by any means possible, either by using healer skills or buying health potions.
+This script will try to keep you alive by any means possible, either by using healer skills or buying health potions.  
 If you are not a healer or you don't have enough mana to cast healer skills it will try to buy a health potion for you.
-
-var healthTrigger = 50;       // Used to monitor your health: if it falls below this number, the script is activated. Change it to your liking.
-var tryBlessingFirst = false; // If you are a healer and would like to try "Blessing" first instead of "Healing Light", change this to true
-
 
 ![](https://media.giphy.com/media/kAPGlutydiHNiqhXmB/giphy.gif)
 [Bee Gees - Stayin' Alive](https://www.youtube.com/watch?v=I_izvAbhExY)  
@@ -46,6 +45,3 @@ If you are still not sure how to do it, the excellent [easy step-by-step setup g
 Copyright (c) 2021 RaitheOfDureya
 
 Licensed under the MIT License.
-
-
-
