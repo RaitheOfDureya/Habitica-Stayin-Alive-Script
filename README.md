@@ -22,7 +22,7 @@ If you are not a healer or you don't have enough mana to cast healer skills it w
 ## Setup Instructions
 The script was developed using [Google Apps Script](https://en.wikipedia.org/wiki/Google_Apps_Script) and can be configured to run on a time basis. In order for you to use this script you need to have a Google account.
 
-1. Go to script.google.com. If this is your first script, this will automatically create a new Google script for you and open an editor for it. Otherwise, edit an existing project by clicking the pencil icon next to it, or create another.
+1. Go to [script.google.com](https://script.google.com/). If this is your first script, this will automatically create a new Google script for you and open an editor for it. Otherwise, edit an existing project by clicking the pencil icon next to it, or create another.
 
 2. Paste [this code snippet]() into the editor, replacing the spaces marked ```Paste-Here-Your-Habitica-User-ID``` and ```Paste-Here-Your-Habitica-API-Token``` with [Habitica User ID and API Token](https://habitica.fandom.com/wiki/API_Options) (leave the quotes). These can be found under the API tab in your Habitica settings.
 
