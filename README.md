@@ -5,6 +5,11 @@ Are you tired of running out of health? Would you like to have bought a health p
 **Don't despair!** Using the [Stayin' Alive Script]() you can forget about these worries and focus on your tasks!
 
 This script will try to keep you alive by any means possible, either by using healer skills or buying health potions.
+If you are not a healer or you don't have enough mana to cast healer skills it will try to buy a health potion for you.
+
+var healthTrigger = 50;       // Used to monitor your health: if it falls below this number, the script is activated. Change it to your liking.
+var tryBlessingFirst = false; // If you are a healer and would like to try "Blessing" first instead of "Healing Light", change this to true
+
 
 ![](https://media.giphy.com/media/kAPGlutydiHNiqhXmB/giphy.gif)
 [Bee Gees - Stayin' Alive](https://www.youtube.com/watch?v=I_izvAbhExY)  
@@ -19,7 +24,12 @@ This script will try to keep you alive by any means possible, either by using he
 The script was developed using [Google Apps Script](https://en.wikipedia.org/wiki/Google_Apps_Script) and can be configured to run on a time basis. In order for you to use this script you need to have a Google account.
 
 1. Go to script.google.com. If this is your first script, this will automatically create a new Google script for you and open an editor for it. Otherwise, edit an existing project by clicking the pencil icon next to it, or create another.
+
 2. Paste [this code snippet]() into the editor, replacing the spaces marked ```Paste-Here-Your-Habitica-User-ID``` and ```Paste-Here-Your-Habitica-API-Token``` with [Habitica User ID and API Token](https://habitica.fandom.com/wiki/API_Options) (leave the quotes). These can be found under the API tab in your Habitica settings.
+
+3. (Optional) For a more tailored experience you can optionally update the ```healthTrigger``` and ```tryBlessingFirst``` variables.
+    - ```healthTrigger``` is used to monitor your health: if it falls below a certain threshold, the script is activated. Change its value to your liking.
+    - ```tryBlessingFirst``` if you are a healer and would like to try "[Blessing](https://habitica.fandom.com/wiki/Healer#Blessing)" first instead of "[Healing Light](https://habitica.fandom.com/wiki/Healer#Healing_Light)", set this variable to ```true```.
 
 3. Under Edit, select current project's triggers. Then add a time based trigger that runs `StayingAlive` and select the interval of your preference. *When scheduling the scripts, try to not schedule them to run more than hourly. Be nice to Habitica servers!* 
 
