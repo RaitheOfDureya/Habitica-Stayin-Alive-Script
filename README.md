@@ -34,7 +34,7 @@ The script was developed using [Google Apps Script](https://en.wikipedia.org/wik
 
 4. Save and you're done!
 
-If you are still not sure how to do it, the excellent [easy step-by-step setup guide with pictures](https://habitica.fandom.com/wiki/Event-Driven_(Webhook)_Scripts_Setup_Guide#Part_1._Set_Up_External_Script) written by [@EugeneG](https://habitica.com/profile/01daa187-ff5e-46aa-ac3f-d4c529a8c012) may help.
+P.S.: *If you are still not sure how to configure it, the excellent [easy step-by-step setup guide with pictures](https://habitica.fandom.com/wiki/Event-Driven_(Webhook)_Scripts_Setup_Guide#Part_1._Set_Up_External_Script) written by [@EugeneG](https://habitica.com/profile/01daa187-ff5e-46aa-ac3f-d4c529a8c012) may help.*
 
 ## Credits and Acknowledgments
 
