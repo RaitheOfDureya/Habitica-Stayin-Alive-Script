@@ -24,7 +24,7 @@ The script was developed using [Google Apps Script](https://en.wikipedia.org/wik
 
 1. Go to [script.google.com](https://script.google.com/). If this is your first script, this will automatically create a new Google script for you and open an editor for it. Otherwise, edit an existing project by clicking the pencil icon next to it, or create another.
 
-2. Paste [this code snippet](https://raw.githubusercontent.com/RaitheOfDureya/Habitica-Stayin-Alive-Script/main/StayingAliveScript.txt) into the editor, replacing the spaces marked ```Paste-Here-Your-Habitica-User-ID``` and ```Paste-Here-Your-Habitica-API-Token``` with [Habitica User ID and API Token](https://habitica.fandom.com/wiki/API_Options) (leave the quotes). These can be found under the API tab in your Habitica settings.
+2. Paste [this code snippet](https://raw.githubusercontent.com/RaitheOfDureya/Habitica-Stayin-Alive-Script/main/StayingAliveScript.js) into the editor, replacing the spaces marked ```Paste-Here-Your-Habitica-User-ID``` and ```Paste-Here-Your-Habitica-API-Token``` with [Habitica User ID and API Token](https://habitica.fandom.com/wiki/API_Options) (leave the quotes). These can be found under the API tab in your Habitica settings.
 
 3. (Optional) For a more tailored experience you can optionally update the ```healthTrigger``` and ```tryBlessingFirst``` variables.
     - ```healthTrigger``` is used to monitor your health: if it falls below a certain threshold, the script is activated. Change its value to your liking.
