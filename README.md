@@ -5,7 +5,7 @@ Would you like to have bought a health potion earlier?
 Do you wish you had remembered to use that healer skill?   
 Would you like to help your party stay alive even when you're not online?   
 
-**Don't despair!** Using the **[Stayin' Alive Script](https://github.com/RaitheOfDureya/Habitica-Stayin-Alive-Script/blob/main/StayingAliveScript.txt)** you can forget about these worries and focus on your tasks!
+**Don't despair!** Using the **[Stayin' Alive Script](https://github.com/RaitheOfDureya/Habitica-Stayin-Alive-Script/blob/main/StayingAliveScript.js)** you can forget about these worries and focus on your tasks!
 
 This script will try to keep you alive by any means possible, either by using healer skills or buying health potions.  
 If you are not a healer or you don't have enough mana to cast healer skills it will try to buy a health potion for you.
