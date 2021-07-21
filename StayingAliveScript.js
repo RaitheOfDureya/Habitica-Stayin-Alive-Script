@@ -13,7 +13,8 @@ const habiticaUserId   = 'Paste-Here-Your-Habitica-User-ID';
 const habiticaAPIToken = 'Paste-Here-Your-Habitica-API-Token';
 
 var healthTrigger = 50;       // Used to monitor your health: if it falls below this number, the script is activated. Change it to your liking.
-var tryBlessingFirst = false; // If you are a healer and would like to try "Blessing" first instead of "Healing Light", change this to true
+var tryBlessingFirst = false; // If you are a healer and would like to try "Blessing" first instead of "Healing Light", change this to true.
+                              // P.S.: You must be at least level 14 to use this skill.
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------- */
 /*                           Do not edit code below this line (or do edit if you want to try your own ideas)                                     */
